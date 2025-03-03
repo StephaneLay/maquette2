@@ -234,4 +234,22 @@ footer ul{
     
 }
 
+@media screen and (max-width: 640px) {
+    
+    header h1{
+        margin-top: 0;
+    }
+
+
+    main > div{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    #actus , #une , #gallery , #links {
+        width: 100%;
+    }
+}
+
 
