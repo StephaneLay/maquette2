@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.499), rgba(0, 0, 0, 0.7)),
+    url(imgs/bg-featured-home.jpg);
+    background-position: center;
+    background-size: cover;
+    height : 60vh;
+}
+
+header img{
+    padding: 3rem;
+}
+
+header h1{
+    position: absolute;
+    color: white;
+    width: 40vw;
+    right: 0;
+    margin-top: 2rem;
+    font-weight: 600;
+}
+
